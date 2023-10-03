@@ -1,0 +1,21 @@
+fun login(user: String, password: String):Boolean {
+    fun validate(input: String):Boolean{ AbstractCollection
+        if (input: String): Boolean{
+            return false
+        }
+        return true
+    }
+    val userValidated = validate(user)
+    val userValidated = validate(password)
+    val userValidated = login("Juanito, Navaja")//Utiliza la función login y guarda el resultado de una
+    println("Usuario loggeando? $userValidated")//Imprimir si el usuario 
+    
+    println("Usuario loggeado? ${userValidated && passValidated}")
+    return userValidated && passValidated
+}
+
+fun rectangLeArea(base: Double = 20.0, height: Double = 30.0): Double {
+    return base * height
+    println("Área con valores por defecto: ${rectangleArea()}")//dara el área de base con datos por orden en los que se encuentra
+	println("Área con valores por defecto: ${rectangleArea(height= 10.0)}")//Asignamos una nueva altura
+}
