@@ -1,0 +1,7 @@
+fun main() { 
+val nombre = "Cruz Hernandez Eduardo Antonio" 
+    println("Hello, UPIICSA!!!") 
+    println(""+ nombre) 
+    println("UPIICSIANOS POR SIEMPRE") 
+    println("Y COMO DICE JENNY RIVERA, ARRIBA LAS VIEJAS BORRACHAS") 
+}
