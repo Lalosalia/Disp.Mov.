@@ -1,0 +1,28 @@
+fun main(){
+    val nombres = listOf(
+    	"Pedro Luis",
+    	"Juan Manuel",
+    	"Juan Luis",
+    	"María Ines",
+    	"Romeo",
+    	"Ernesto",
+    	"Juan Pedro",
+    	"Ariadna",
+    	"Mireya María",
+    	"Ana Sofia",
+    	"José Juan")
+    
+   fun countName(name: String): Int{
+        var y = 20
+        do{
+            y--
+            println(y)
+        }while (y > 0)
+        
+        return y
+   }
+    
+    val nameCount = countName("Juan")
+    println("Tu nombre se encontro $nameCount veces")
+}
+
