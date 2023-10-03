@@ -1,0 +1,16 @@
+fun main(){
+    val user = login("Eduardo, UPIICSA")
+    println("Usuario loggeando? $user")
+}
+fun login(user: String, password: String):Boolean {
+    fun validate(input: String):Boolean{ 
+        if (input.isEmpty()){
+            return false
+        }
+        return true
+    }
+    val userValidated = validate(user)
+    val userValidated = validate(password)
+   
+    return userValidated && passValidated
+}
